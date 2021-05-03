@@ -57,13 +57,19 @@ Fatalities (independent var) are normalized by total population at the moment of
 
 \<Table 1: Total fatalities by country>
 
-204 civil wars had occurred during 1816 - 1992 in 66 countries (SARDINIA has been removed from further analysis because it was not included in the democracy data). To answer hypothesis 1, this study conducted t-test in [scipy library](https://www.scipy.org/docs.html). Among 65 countries, 62 countries had p-value less than 0.05. This indicates in most countries, democracy score and liberty score changes in the same direction. For example, if democracy score decreased, then liberty score also decreased. 
+204 civil wars had occurred during 1816 - 1992 in 66 countries (SARDINIA has been removed from further analysis because it was not included in the democracy data). To answer hypothesis 1, this study conducted t-test in [scipy library](https://www.scipy.org/docs.html). p-value is used to explain whether the relationship is statistically meaningful with the threshold of 0.05. In the t-test, p-value greater than 0.05 means that the two groups are not identical. In this study, p-value greater than 0.05 means liberty score and democracy score have different patterns in changes. Among 65 countries, 62 countries had p-value less than 0.05. This indicates in most countries, democracy score and liberty score changes in the same direction. For example, if democracy score decreased, then liberty score also decreased. 
 
 ![alt text](https://github.com/91jpark19/2021_Spring_finals/blob/main/Images/NIGERIA.png)
 
 \<Figure 2: Nigeria scores>
 
-![alt text]
+![alt text](https://github.com/91jpark19/2021_Spring_finals/blob/main/Images/UNITED%20STATES.png)
+
+\<Figure 3: US scores>
+
+\<Figure 2> shows an example from Nigeria, which had less than 0.05 for the p-value and <Figure 3> examplifies an example of greater than 0.05 p-value. United States, Bosnia and Herzegov, Finland, India, and Costa Rica had p-value larger than 0.05.
+
+**7. Preliminary Results of H2**
 
 
 
