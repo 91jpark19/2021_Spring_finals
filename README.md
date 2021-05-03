@@ -61,9 +61,9 @@ Fatalities (independent var) are normalized by total population at the moment of
 
 ![alt text](https://github.com/91jpark19/2021_Spring_finals/blob/main/Images/NIGERIA.png)
 
-<Figure 2: Nigeria scores>
+\<Figure 2: Nigeria scores>
 
-
+![alt text]
 
 
 
