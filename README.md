@@ -37,7 +37,7 @@ Listed above are the hypotheses that this study aims to answer. First hypothesis
 
 **4. Datasets**
 
-ICPSR is an institutional repository where the researchers who are affiliated with ICPSR publicize the dataset they used for the study for the sake of reproducibility. However, since ICPSR has rules that the data has to be accessed through ICPSR, this github repository does not uploaded the datasets being used. This study takes two datasets for [civil war data](https://doi.org/10.3886/ICPSR09905.v1) and [democracy data](https://doi.org/10.3886/ICPSR20440.v1). Anyone who are interested in replicating this study can access to the data by clicking it.
+[ICPSR](https://www.icpsr.umich.edu/web/pages/) is an institutional repository where the researchers who are affiliated with ICPSR publicize the dataset they used for the study for the sake of reproducibility. However, since ICPSR has rules that the data has to be accessed through ICPSR, this github repository does not uploaded the datasets being used. This study takes two datasets for [civil war data](https://doi.org/10.3886/ICPSR09905.v1) and [democracy data](https://doi.org/10.3886/ICPSR20440.v1). Anyone who are interested in replicating this study can access to the data by clicking it.
 
 **5. Design Reasoning**
 
@@ -71,9 +71,12 @@ Fatalities (independent var) are normalized by total population at the moment of
 
 **7. Preliminary Results of H2**
 
+|   Year  |   5  |  10  |   20  |
+|:-------:|:----:|:----:|:-----:|
+|  Slope  | 0.02 | 0.13 | -0.36 |
+| p-value | 0.52 | 0.24 | 0.01* |
 
-
-
+\<Table 2: Logistic regression on democracy score (H2a)>
 
 
 
