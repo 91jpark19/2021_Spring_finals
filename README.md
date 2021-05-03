@@ -19,7 +19,7 @@ One of the great founding father Thomas Jefferson once said, "The tree of libert
 
 In political science field, more narrowly in peace studies, the study on correlational relationship between institutional democracy can lead to world peace. One study from [Hegre et al. (2001)](https://www.jstor.org/stable/3117627?seq=1#metadata_info_tab_contents) suggested that intermediate regimes are prone to civil war, destabilizing political climate. The idea of Hegre et al. is often referred as 'Inverted U-Shape' to illustrate that semi-democracies (similar to intermediate regimes) experience more civil violence than autocracies and democracies ([Knutsen & Nygård, 2015](https://onlinelibrary.wiley.com/doi/full/10.1111/ajps.12168))
 
-![image](https://user-images.githubusercontent.com/70227914/116835809-b3c78a00-ab89-11eb-87be-b484bd196cfd.png)
+![image]()
 )
 
 
