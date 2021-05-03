@@ -23,7 +23,7 @@ In political science field, more narrowly in peace studies, the study on correla
 
 \<Figure 1: Inverted U-shape>
 
-As \<Figure 1> from [Krishnarajan et al. (2016)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2822231) illustrates, where the democracy index is around 5 has the highest probability of starting the civil war. Even though prior research suggests that there is a relationship between the level of democracy and the likelihood of civil violence, their approach is different from this study's approach. This study  
+As \<Figure 1> from [Krishnarajan et al. (2016)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2822231) illustrates, where the democracy index is around 5 has the highest probability of starting the civil war. Even though prior research suggests that there is a relationship between the level of democracy and the likelihood of civil violence, their approach is different from this study's approach. While prior research explains the likelihood of civil violence with the level of democracy, this study explains how the level of democracy increased or decreased by fatalities.
 
 **3. Hypotheses
 
