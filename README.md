@@ -96,4 +96,7 @@ After 20 years since the end of the civil war, the more fatalities that the civi
 * H2b. Partically Rejected: after 20 years since the end of civil war, liberty score tend to drop if there is more fatalities
 
 **9. Limitations**
+ 
+There are two limitations. One arise from the problem inherent in the dataset. First is incompleteness. Original data of [civil war data](https://doi.org/10.3886/ICPSR09905.v1) contained many missing values. Furthermore, TAJIKISTAN was labeled as TAKJIKISTAN in [civil war data](https://doi.org/10.3886/ICPSR09905.v1), which might have been neglected without close inspection. At the same time, [democracy data](https://doi.org/10.3886/ICPSR20440.v1) had missing values in the population column. Aside from incompletness of two datasets, another problem is incompatability. [civil war data](https://doi.org/10.3886/ICPSR09905.v1) contained SARDINA, which is not included in [democracy data](https://doi.org/10.3886/ICPSR20440.v1).
 
+The second limitation is a method-wise limitation. This study 
