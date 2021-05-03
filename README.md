@@ -13,7 +13,7 @@
 
 **1. Motivation**
 
-One of the great founding father Thomas Jefferson once said, "The tree of liberty must be refreshed from time to time with the blood of patriots and tyrants" in his [letter](//www.loc.gov/exhibits/jefferson/jefffed.html#105) to William Smith. The underlying meaning of his word cannot be understood without the context of historical background: oppression of British government and the struggle to earn independency. However, from what is being written, it also implies that the prosperity of one country accompanies sacrifices. This study examines whether the sacrifices arise from civil war can explain the changes of the level of democracy and liberty of one country.
+One of the great founding fathers Thomas Jefferson once said, "The tree of liberty must be refreshed from time to time with the blood of patriots and tyrants" in his [letter](//www.loc.gov/exhibits/jefferson/jefffed.html#105) to William Smith. The underlying meaning of his word cannot be understood without the context of historical background: oppression of British government and the struggle to earn independency. However, from what is being written, it also implies that the prosperity of one country accompanies sacrifices. This study examines whether the sacrifices arise from civil war can explain the changes of the level of democracy and liberty of one country.
 
 **2. Literature Review**
 
@@ -23,7 +23,15 @@ In political science field, more narrowly in peace studies, the study on correla
 
 \<Figure 1: Inverted U-shape>
 
-As \<Figure 1> from [Krishnarajan et al. (2016)]() illustrates 
+As \<Figure 1> from [Krishnarajan et al. (2016)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2822231) illustrates, where the democracy index is around 5 has the highest probability of starting the civil war. 
+
+**3. Hypotheses
+
+-H1. The changes of democracy score and the liberty score is not identical
+-H2a. There is no relationship between the democracy score and the bloodshed due to civil war.
+-H2b. There is no relationship between the liberty score and the blood shed due to civil war.
+
+Listed above are the hypotheses that this study aims to answer. First hypothesis approaches to answer whether the democracy and liberty score of one country changes in the same way. This hypothesis will be helpful to demonstrate whether the country with free market also has democractic political system, although this is often thought to be true as history has seen. Building on the hypothesis 1, each of H2a and H2b centers around answering the question of correlational relationship between the either democracy or liberty score and fatalities of the civil war. This study operationalize the blood of patriots and tyrants as fatalities  
 
 
 
