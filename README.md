@@ -23,7 +23,7 @@ In political science field, more narrowly in peace studies, the study on correla
 
 \<Figure 1: Inverted U-shape>
 
-As \<Figure 1> from [Krishnarajan et al. (2016)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2822231) illustrates, where the democracy index is around 5 has the highest probability of starting the civil war. 
+As \<Figure 1> from [Krishnarajan et al. (2016)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2822231) illustrates, where the democracy index is around 5 has the highest probability of starting the civil war. Even though prior research suggests that there is a relationship between the level of democracy and the likelihood of civil violence, their approach is different from this study's approach. This study  
 
 **3. Hypotheses
 
@@ -31,7 +31,16 @@ As \<Figure 1> from [Krishnarajan et al. (2016)](https://papers.ssrn.com/sol3/pa
 -H2a. There is no relationship between the democracy score and the bloodshed due to civil war.
 -H2b. There is no relationship between the liberty score and the blood shed due to civil war.
 
-Listed above are the hypotheses that this study aims to answer. First hypothesis approaches to answer whether the democracy and liberty score of one country changes in the same way. This hypothesis will be helpful to demonstrate whether the country with free market also has democractic political system, although this is often thought to be true as history has seen. Building on the hypothesis 1, each of H2a and H2b centers around answering the question of correlational relationship between the either democracy or liberty score and fatalities of the civil war. This study operationalize the blood of patriots and tyrants as fatalities  
+Listed above are the hypotheses that this study aims to answer. First hypothesis approaches to answer whether the democracy and liberty score of one country changes in the same way. This hypothesis will be helpful to demonstrate whether the country with free market also has democractic political system, although this is often thought to be true as history has seen. Building on the hypothesis 1, each of H2a and H2b centers around answering the question of correlational relationship between the either democracy or liberty score and fatalities of the civil war. This study operationalize the blood of patriots and tyrants as fatalities.
+
+**4. Datasets
+
+ICPSR is an institutional repository where the researchers who are affiliated with ICPSR publicize the dataset they used for the study for the sake of reproducibility. However, since ICPSR has rules that the data has to be accessed through ICPSR, this github repository does not uploaded the datasets being used. This study takes two datasets for [civil war data](https://doi.org/10.3886/ICPSR09905.v1) and [democracy data](https://doi.org/10.3886/ICPSR20440.v1). Anyone who are interested in replicating this study can access to the data by clicking it.
+
+**5. Design Reasoning
+
+
+
 
 
 
