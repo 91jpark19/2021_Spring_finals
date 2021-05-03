@@ -89,8 +89,11 @@ After 20 years since the end of the civil war, the more fatalities that the civi
 
 **8. Preliminary Conclusions**
 
-* H1. Failed to Reject: 
+* H1. Failed to Reject: changes of liberty and democracy score are identical in most of civil war-experienced countries.
 
-* H2a. Partically Rejected: 
+* H2a. Partically Rejected: after 20 years since the end of civil war, democracy score tend to drop if there is more fatalities
 
-* H2b. Partically Rejected: 
+* H2b. Partically Rejected: after 20 years since the end of civil war, liberty score tend to drop if there is more fatalities
+
+**9. Limitations**
+
