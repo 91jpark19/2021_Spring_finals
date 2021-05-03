@@ -78,5 +78,19 @@ Fatalities (independent var) are normalized by total population at the moment of
 
 \<Table 2: Logistic regression on democracy score (H2a)>
 
+|   Year  |   5  |  10  |   20  |
+|:-------:|:----:|:----:|:-----:|
+|  Slope  | 0.03 | 0.24 | -0.66 |
+| p-value | 0.62 | 0.29 | 0.02* |
 
+\<Table 3: Logistic regression on liberty score (H2b)>
 
+After 20 years since the end of the civil war, the more fatalities that the civil war resulted in, the lower the democracy and liberty score become as shown in \<Table 2> and \<Table 3>. However, only 20-year gap observations shows statistical significance. Hypotheses are partially rejected, meaning bloodshed through civil war lowers the level of democracy and liberty in a long run. 
+
+**8. Preliminary Conclusions**
+
+* H1. Failed to Reject: 
+
+* H2a. Partically Rejected: 
+
+* H2b. Partically Rejected: 
