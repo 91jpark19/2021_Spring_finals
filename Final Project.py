@@ -5,10 +5,23 @@ import numpy
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-def preprocess_civil(filename):
-    data=pd.read_csv(filename, header=None, delimiter=r"\s+")
-    even=data.iloc[::2] #even rows dataframe
-    odd=data.iloc[1::2] #odd rows dataframe
+def preprocess_civil(filename)->pd.DataFrame:
+    """
+    Reads given filename and places the right column name for even rows and odd rows.
+    After giving the right column name, merge even rows and odd rows to have them in one row.
+
+    :param filename: filename as a string like: "09905-0002-Data.txt"
+    :return: cleaned pd.DataFrame
+
+    >>> preprocess_civil("09905-0002-Data.txt")['war number'].iloc[0]
+    601
+
+    >>> preprocess_civil("09905-0002-Data.txt")['fatalities'].iloc[0]
+    7000
+    """
+    data = pd.read_csv(filename, header=None, delimiter=r"\s+")
+    even = data.iloc[::2] #even rows dataframe
+    odd = data.iloc[1::2] #odd rows dataframe
     odd = odd.iloc[:, :-4] #get rid of columns of NAs
     even.columns=[
     'war number', 'Singer-Small country code', 'year of war start', 'month of war start', 'day of war start',
@@ -27,7 +40,20 @@ def preprocess_civil(filename):
     civilwar = even.merge(odd, left_index=True, right_index=True)
     return civilwar
 
-def preprocess_civilcodebook(filename):
+def preprocess_civilcodebook(filename) -> pd.DataFrame:
+    """
+    Read codebook to map the 'Singer-Small country code' to the country name
+
+    :param filename: filename as a string like "09905-Codebook.txt"
+    :return: cleaned pd.DataFrame
+
+    >>> preprocess_civilcodebook("09905-Codebook.txt")['country'].iloc[0]
+    'SPAIN'
+
+    >>> preprocess_civilcodebook("09905-Codebook.txt")['war number'].iloc[0]
+    601
+
+    """
     with open(filename) as f:
         lines=f.readlines()
         x1=[]
@@ -46,7 +72,24 @@ def preprocess_civilcodebook(filename):
             df['war number'] = df['war number'].astype(int)
         return df
 
-def merge_civil_codebook(civil, codebook):
+def merge_civil_codebook(civil, codebook)->pd.DataFrame:
+    """
+    Takes cleaned civil war data and codebook and merge two DataFrames.
+    In civil war data, the year was recorded without 1000.
+    For instance, 1801 was recorded as 801.
+    For compatibility, this function add 1000 to changes the year into 1801.
+
+    :param civil: a pd.DataFrame from preprocess_civil() function
+    :param codebook: a pd.DataFrame from preprocess_civilcodebook() function
+    :return: a merged pd.DataFrame
+
+    >>> merge_civil_codebook(civil, df)['year of war start'].iloc[0]
+    1821
+
+    >>> merge_civil_codebook(civil, df)['year of war end'].iloc[0]
+    1823
+    """
+
     #In the codebook, warnumber 601 is not recorded but it exists in the data
     #We lose 2 records. In total, we have 202 cases
     coded=civil.merge(codebook, left_on='war number', right_on='war number')
@@ -62,7 +105,20 @@ def merge_civil_codebook(civil, codebook):
                               'year of third war start', 'year of third war end'], axis=1)
     return coded
 
-def control_country(coded):
+def control_country(coded)-> df.DataFrame:
+    """
+    Takes cleaned pd.DataFrame from merge_civil_codebook() and control the country name
+    1) Correct typos
+    2) Match the country names between pd.DataFrame from democracy data
+    e.g., LAOS into Lao Pdr, SOUTH YEMEN into Yemen Pdr
+
+    :param coded: a pd.DataFrame after merging codebook and civil data
+    :return: a pd.DataFrame changed the country name
+
+    >>> control_country(coded)['country'].iloc[54]
+    'RUSSIAN FEDERATION'
+
+    """
     for idx, val in coded.iterrows():
         #for Austria-hungary I splited into two countries. So we have 203 records
         if val['country']=='AUSTRIA-HUNGARY':
@@ -128,7 +184,17 @@ def control_country(coded):
     coded.reset_index(drop=True)
     return coded
 
-def preprocess_democracy(filename):
+def preprocess_democracy(filename)-> pd.DataFrame:
+    """
+    Reads filename and if democracy index is NA and liberty index is NA, get rid of the rows.
+
+    :param filename: a string like "20440-0001-Data.tsv"
+    :return: a cleaned pd.DataFrame
+
+    >>> preprocess_democracy("20440-0001-Data.tsv")['ctryname'].loc[15634]
+    'FIJI'
+
+    """
     #SARDINA is not in the democracy data file
     democracy=pd.read_csv(filename, sep='\t')
     democracy['ctryname']=democracy['ctryname'].str.upper()
