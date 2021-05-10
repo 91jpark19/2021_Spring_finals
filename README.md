@@ -24,7 +24,7 @@ In political science field, more narrowly in peace studies, it has been argued t
   <img src="https://github.com/91jpark19/2021_Spring_finals/blob/main/Images/inverted%20u-shape.JPG" alt="factorio thumbnail"/>
 </p> 
 
-<center> \ <Figure 1: Inverted U-shape> </center>
+<center> Figure 1: Inverted U-shape </center>
 
 As \<Figure 1> from [Krishnarajan et al. (2016)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2822231) illustrates, where the democracy index is around 5 has the highest probability of starting the civil war. Even though prior research suggests that there is a relationship between the level of democracy and the likelihood of civil violence, their approach is different from this study's approach. While prior research explains the likelihood of civil violence with the level of democracy, this study explains how the level of democracy increased or decreased by fatalities.
 
