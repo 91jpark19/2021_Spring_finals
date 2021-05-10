@@ -19,12 +19,12 @@ One of the great founding fathers Thomas Jefferson once said, "The tree of liber
 
 In political science field, more narrowly in peace studies, it has been argued that the institutional democracy can lead to world peace. One study from [Hegre et al. (2001)](https://www.jstor.org/stable/3117627?seq=1#metadata_info_tab_contents) suggested that intermediate regimes are prone to civil war, destabilizing political climate. This means that if the government does not have established robust governance towars their citizens, then the government is likely to experience domestic violence. The idea of Hegre et al. is often referred as 'Inverted U-Shape' to illustrate that semi-democracies (similar to intermediate regimes) experience more civil violence than autocracies and democracies ([Knutsen & Nygård, 2015](https://onlinelibrary.wiley.com/doi/full/10.1111/ajps.12168))
 
-
 <p align="center">
   <img src="https://github.com/91jpark19/2021_Spring_finals/blob/main/Images/inverted%20u-shape.JPG" alt="factorio thumbnail"/>
 </p> 
 
-<center> Figure 1: Inverted U-shape </center>
+<center>Figure 1: Inverted U-shape</center>
+
 
 As \<Figure 1> from [Krishnarajan et al. (2016)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2822231) illustrates, where the democracy index is around 5 has the highest probability of starting the civil war. Even though prior research suggests that there is a relationship between the level of democracy and the likelihood of civil violence, their approach is different from this study's approach. While prior research explains the likelihood of civil violence with the level of democracy, this study explains how the level of democracy increased or decreased by fatalities.
 
