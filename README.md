@@ -23,7 +23,6 @@ In political science field, more narrowly in peace studies, it has been argued t
 <p align="center">
   <img src="https://github.com/91jpark19/2021_Spring_finals/blob/main/Images/inverted%20u-shape.JPG" alt="factorio thumbnail"/>
 </p> 
-![alt text]()
 
 <Figure 1: Inverted U-shape> 
 
@@ -65,11 +64,15 @@ Fatalities (independent var) are normalized by total population at the moment of
 
 204 civil wars had occurred during 1816 - 1992 in 66 countries (SARDINIA has been removed from further analysis because it was not included in the democracy data). To answer hypothesis 1, this study conducted t-test in [scipy library](https://www.scipy.org/docs.html). p-value is used to explain whether the relationship is statistically meaningful with the threshold of 0.05. In the t-test, p-value greater than 0.05 means that the two groups are not identical. In this study, p-value greater than 0.05 means liberty score and democracy score have different patterns in changes. Among 65 countries, 62 countries had p-value less than 0.05. This indicates in most countries, democracy score and liberty score changes in the same direction. For example, if democracy score decreased, then liberty score also decreased. 
 
-![alt text](https://github.com/91jpark19/2021_Spring_finals/blob/main/Images/NIGERIA.png)
+<p align="center">
+  <img src="https://github.com/91jpark19/2021_Spring_finals/blob/main/Images/NIGERIA.png" alt="factorio thumbnail"/>
+</p> 
 
 \<Figure 2: Nigeria scores>
 
-![alt text](https://github.com/91jpark19/2021_Spring_finals/blob/main/Images/UNITED%20STATES.png)
+<p align="center">
+  <img src="https://github.com/91jpark19/2021_Spring_finals/blob/main/Images/UNITED%20STATES.png" alt="factorio thumbnail"/>
+</p>
 
 \<Figure 3: US scores>
 
